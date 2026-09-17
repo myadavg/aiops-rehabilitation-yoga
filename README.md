@@ -4,6 +4,9 @@ An end-to-end DevOps, Observability, AIOps and Generative AI project that demons
 
 This project combines AWS, Kubernetes, Docker, Jenkins, CloudWatch, Elastic/Kibana, AppDynamics, RAG, ChromaDB, Groq LLM, PagerDuty and Python automation into a single incident-management workflow.
 
+<img width="997" height="666" alt="image" src="https://github.com/user-attachments/assets/293bfb4b-2f5e-4bf3-b760-8d6aa1226ca2" />
+
+
 ## 📌 Project Overview
 
 The application is a containerized rehabilitation/yoga website deployed on Kubernetes running on AWS.
