@@ -81,3 +81,35 @@ Recovery Verification
 - PagerDuty Events API v2
 - Automated Kubernetes remediation
 - Recovery verification
+
+# 🌐 Application
+
+The project uses a rehabilitation/yoga website as the application being monitored.
+
+The website is packaged into a Docker container using Nginx and deployed to Kubernetes.
+
+### Application Flow
+
+```text
+Website Source Code
+        ↓
+      Docker
+        ↓
+      Nginx
+        ↓
+ Kubernetes Pod
+        ↓
+ LoadBalancer
+        ↓
+    Website
+
+The application is stored in GitHub, built through Jenkins, packaged as a Docker image, pushed to Amazon ECR, and deployed to Kubernetes.
+
+Application Components
+HTML
+CSS
+JavaScript
+Nginx
+Docker
+Kubernetes
+AWS Load Balancer
