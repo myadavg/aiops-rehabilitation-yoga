@@ -34,3 +34,50 @@ PagerDuty
 Kubernetes Remediation
       ↓
 Recovery Verification
+
+# 🛠️ Technology Stack
+
+## Cloud & Infrastructure
+
+- AWS EC2
+- AWS ECR
+- AWS S3
+- AWS Elastic Load Balancer
+- AWS CloudWatch
+- AWS SNS
+- AWS IAM
+
+## DevOps
+
+- Git
+- GitHub
+- Jenkins
+- Docker
+- Kubernetes
+- kOps
+- Terraform
+- Linux
+
+## Observability
+
+- AWS CloudWatch
+- Elastic Cloud
+- Kibana
+- Elastic Agent
+- AppDynamics
+
+## AI / AIOps
+
+- Python
+- Groq LLM
+- AI Agent
+- RAG
+- ChromaDB
+- Large Language Models
+
+## Incident Management
+
+- PagerDuty
+- PagerDuty Events API v2
+- Automated Kubernetes remediation
+- Recovery verification
