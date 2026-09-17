@@ -1,0 +1,32 @@
+High Memory Incident Troubleshooting
+
+Symptom:
+Linux EC2 memory utilization is above 70 percent.
+
+Possible Causes:
+1. Memory-intensive application process.
+2. Application memory leak.
+3. Recent application deployment.
+4. Insufficient instance memory.
+5. Excessive container memory usage.
+
+Investigation:
+1. Check memory usage with free -h.
+2. Identify high-memory processes with top.
+3. Check Docker container memory with docker stats.
+4. Review CloudWatch memory metrics.
+5. Review application and system logs.
+
+Remediation:
+1. Restart the affected application if memory usage remains high.
+2. Roll back a recent deployment if it introduced the issue.
+3. Investigate and fix memory leaks.
+4. Increase instance capacity if the workload consistently requires more memory.
+5. Configure appropriate container memory limits.
+
+Verification:
+1. Confirm memory utilization falls below the alarm threshold.
+2. Confirm the CloudWatch alarm returns to OK.
+3. Check application logs for OOM errors.
+4. Verify the application is responding normally.
+5. Monitor memory metrics for stability.
