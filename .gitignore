@@ -1,0 +1,8 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+*.pem
+chroma_db/
+*.deb
+incident.json
